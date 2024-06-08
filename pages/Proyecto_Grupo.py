@@ -8,7 +8,9 @@ st.sidebar.title("Nuevas Tecnologias")
 
 logo = "https://i.imgur.com/UbOXYAU.png"
 st.sidebar.image(logo)
-st.title("Intoxicaciones por sustancias psicoactivas")
+
+# Título con estilo
+st.markdown("<h1 style='text-align: center; color: #4A90E2;'>Intoxicaciones por Sustancias Psicoactivas 2010-2021</h1>", unsafe_allow_html=True)
 
 df = pd.read_csv('datasets/intoxicacion_por_sustancias_psicoactivas.csv')
 

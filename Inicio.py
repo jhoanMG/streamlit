@@ -3,7 +3,7 @@ import streamlit as st
 # Configuración de la página
 st.set_page_config(layout="wide", page_title="Nuevas tecnologías")
 
-st.sidebar.title("Nuevas Tecnologias")
+st.sidebar.title("Nuevas Tecnologias de Programacion")
 
 logo = "https://i.imgur.com/UbOXYAU.png"
 st.sidebar.image(logo)
